@@ -1,2 +1,2 @@
 # NetworkingProject
-This repository is designated for simple to advanced-level networking projects for educational purposes.
+This repository is designated to demonstrate simple to advanced-level networking projects for educational purposes.
