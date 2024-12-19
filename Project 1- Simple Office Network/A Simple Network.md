@@ -62,6 +62,3 @@ Ip address 192.168.10.129 255.255.255.128
   Source	Destination	Result
   PC0	    PC3	        Ping Success (4 replies)
 
-## Project's Author(s)
-✍️ This project is adapted from a YouTube tutorial by [Gurutech Trainer](https://www.youtube.com/watch?v=_yqDRZgjP5k&list=PLyEymK89ZUabd7h9FK4dGVdONbxFEJoyk). 
-
