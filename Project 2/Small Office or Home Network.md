@@ -1,7 +1,7 @@
-##1.	Overview:
+## 1.	Overview:
 This document outlines the design and implementation of a network for XYZ company’s new branch near Bonalbo village. The network is designed to support three departments with distinct requirements, ensuring secure and efficient communication within the branch.
 
-##2. Network Design Requirements
+## 2. Network Design Requirements
   1.	Devices to be used: One router and one switch (all Cisco products).
   2.	Departmental structure:
       o	Admin/IT
@@ -12,7 +12,7 @@ This document outlines the design and implementation of a network for XYZ compan
   5.	Host devices must obtain IPv4 addresses automatically using DHCP.
   6.	Devices in all departments must communicate with each other.
 
-##3.	Network Diagram
+## 3.	Network Diagram
 
                     Router (Default Gateway) 
                               |  
@@ -21,7 +21,7 @@ This document outlines the design and implementation of a network for XYZ compan
                       VLAN10 VLAN20 VLAN30   
               (Admin/IT) (Finance/HR) (Customer Service) 
 
-##4.	IP Addressing Scheme
+## 4.	IP Addressing Scheme
   Assume the ISP provides a base network: 192.168.1.0/24.
 
   •	Subnet Calculation:
@@ -46,7 +46,7 @@ This document outlines the design and implementation of a network for XYZ compan
     Broadcast ID: 192.168.1.254
     Host Range: 192.168.1.128 – 192.168.1.254
 
-##5.Configuration Steps
+## 5.Configuration Steps
   5.1 Router Configuration
     1.	Assign IP addresses to the router interfaces.
     2.	Configure sub-interfaces for VLANs and set the respective gateways.
@@ -78,17 +78,17 @@ This document outlines the design and implementation of a network for XYZ compan
     Domain-name Admin.com
     Exit
 
-##5.3 Wireless Network Configuration
+## 5.3 Wireless Network Configuration
   1. Connect wireless access points (APs) to the switch.
   2.	Assign VLANs to APs to segregate wireless traffic.
   3.	Configure SSIDs for each department.
 
 
-##6.	Testing
+## 6.	Testing
   1.	Verify VLANs using the show vlan command on the switch.
   2.	Ping devices across VLANs to ensure inter-departmental communication.
   3.	Connect wireless devices and verify DHCP functionality.
 
-##7.	Conclusion
+## 7.	Conclusion
   This design ensures a secure, efficient, and scalable network for XYZ company’s branch, meeting all specified requirements.
 
